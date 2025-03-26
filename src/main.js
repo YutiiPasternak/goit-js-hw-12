@@ -12,7 +12,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 const searchForm = document.querySelector('.form');
 const searchInput = document.querySelector('#search-input');
-const loadMoreBtn = document.querySelector('#load-more');
+const loadMoreBtn = document.querySelector('#loader');
 let currentPage = 1;
 let currentQuery = '';
 let totalHits = 0;
