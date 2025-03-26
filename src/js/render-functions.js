@@ -5,7 +5,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('#load-more');
-const loader = document.querySelector('#loader');
+const loader = document.querySelector('.loader');
 let lightbox = new SimpleLightbox('.gallery a', {
   captionData: 'alt',
   captionDelay: 250,
